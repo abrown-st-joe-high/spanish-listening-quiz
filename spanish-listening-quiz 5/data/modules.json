@@ -1,8 +1,0 @@
-[
-  { "id": "alphabet", "label": "Alphabet", "dataFile": "data/alphabet.json" },
-  { "id": "numbers-30", "label": "Numbers 0–30", "dataFile": "data/numbers-30.json" },
-  { "id": "numbers-100", "label": "Numbers 0–100", "dataFile": "data/numbers-100.json" },
-  { "id": "numbers-1000", "label": "Numbers 0–1000", "dataFile": "data/numbers-1000.json" },
-  { "id": "days", "label": "Days of the week", "dataFile": "data/days.json" },
-  { "id": "months", "label": "Months of the year", "dataFile": "data/months.json" }
-]
