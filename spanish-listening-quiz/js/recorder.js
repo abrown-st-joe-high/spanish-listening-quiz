@@ -16,6 +16,12 @@ async function init() {
   $("next-btn").addEventListener("click", () => select(nextUnrecorded()));
   $("zip-btn").addEventListener("click", downloadZip);
   $("clear-btn").addEventListener("click", clearAll);
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "ArrowRight" || e.altKey || e.ctrlKey || e.metaKey) return;
+    if (e.target.tagName === "SELECT") return; // leave the set dropdown alone
+    e.preventDefault();
+    selectNextItem();
+  });
   loadSet();
 }
 
@@ -44,6 +50,12 @@ function nextUnrecorded(from) {
     if (!keys.has(keyOf(it))) return it;
   }
   return cur || items[0];
+}
+
+// Right-arrow shortcut: move to the next item in list order (wraps around).
+function selectNextItem() {
+  const items = data.items;
+  select(items[(items.indexOf(cur) + 1) % items.length]);
 }
 
 function select(item) {
