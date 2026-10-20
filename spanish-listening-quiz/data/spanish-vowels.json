@@ -1,0 +1,27 @@
+{
+  "id": "spanish-vowels",
+  "title": "Spanish vowels & diphthongs (IPA)",
+  "instructions": "Listen to the vowel sound and choose the matching IPA symbol.",
+  "audioPath": "audio/spanish-vowels/",
+  "fallbackLang": "es-ES",
+  "items": [
+    { "id": "a", "label": "a", "spoken": "a", "confuseGroup": ["e"] },
+    { "id": "e", "label": "e", "spoken": "e", "confuseGroup": ["i", "a"] },
+    { "id": "i", "label": "i", "spoken": "i", "confuseGroup": ["e"] },
+    { "id": "o", "label": "o", "spoken": "o", "confuseGroup": ["u"] },
+    { "id": "u", "label": "u", "spoken": "u", "confuseGroup": ["o"] },
+    { "id": "ai", "label": "ai̯", "spoken": "aire", "confuseGroup": ["au"] },
+    { "id": "au", "label": "au̯", "spoken": "auto", "confuseGroup": ["ai"] },
+    { "id": "ei", "label": "ei̯", "spoken": "seis", "confuseGroup": ["ai"] },
+    { "id": "eu", "label": "eu̯", "spoken": "Europa", "confuseGroup": ["au"] },
+    { "id": "oi", "label": "oi̯", "spoken": "hoy", "confuseGroup": ["ei"] },
+    { "id": "ia", "label": "ja", "spoken": "piano", "confuseGroup": ["ua"] },
+    { "id": "ie", "label": "je", "spoken": "pie", "confuseGroup": ["ue"] },
+    { "id": "io", "label": "jo", "spoken": "radio", "confuseGroup": ["uo"] },
+    { "id": "iu", "label": "ju", "spoken": "ciudad", "confuseGroup": ["ui"] },
+    { "id": "ua", "label": "wa", "spoken": "agua", "confuseGroup": ["ia"] },
+    { "id": "ue", "label": "we", "spoken": "bueno", "confuseGroup": ["ie"] },
+    { "id": "ui", "label": "wi", "spoken": "cuidado", "confuseGroup": ["iu"] },
+    { "id": "uo", "label": "wo", "spoken": "cuota", "confuseGroup": ["io"] }
+  ]
+}

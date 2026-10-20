@@ -1,0 +1,28 @@
+{
+  "id": "spanish-consonants",
+  "title": "Spanish consonants (IPA)",
+  "instructions": "Listen to the consonant sound and choose the matching IPA symbol.",
+  "audioPath": "audio/spanish-consonants/",
+  "fallbackLang": "es-ES",
+  "items": [
+    { "id": "p", "label": "p", "spoken": "pa", "confuseGroup": ["b"] },
+    { "id": "b", "label": "b", "spoken": "ba", "confuseGroup": ["p"] },
+    { "id": "t", "label": "t", "spoken": "ta", "confuseGroup": ["d"] },
+    { "id": "d", "label": "d", "spoken": "da", "confuseGroup": ["t"] },
+    { "id": "k", "label": "k", "spoken": "ca", "confuseGroup": ["g"] },
+    { "id": "g", "label": "g", "spoken": "ga", "confuseGroup": ["k"] },
+    { "id": "ch", "label": "tʃ", "spoken": "cha", "confuseGroup": ["y"] },
+    { "id": "f", "label": "f", "spoken": "fa", "confuseGroup": ["s"] },
+    { "id": "s", "label": "s", "spoken": "sa", "confuseGroup": ["th", "f"] },
+    { "id": "th", "label": "θ", "spoken": "za", "confuseGroup": ["s"] },
+    { "id": "x", "label": "x", "spoken": "ja", "confuseGroup": ["ch"] },
+    { "id": "m", "label": "m", "spoken": "ma", "confuseGroup": ["n"] },
+    { "id": "n", "label": "n", "spoken": "na", "confuseGroup": ["m", "ny"] },
+    { "id": "ny", "label": "ɲ", "spoken": "ña", "confuseGroup": ["n"] },
+    { "id": "l", "label": "l", "spoken": "la", "confuseGroup": ["ll", "r"] },
+    { "id": "ll", "label": "ʝ", "spoken": "ya", "confuseGroup": ["l", "y"] },
+    { "id": "y", "label": "j", "spoken": "ya", "confuseGroup": ["ll"] },
+    { "id": "tap", "label": "ɾ", "spoken": "pero", "confuseGroup": ["trill", "l"] },
+    { "id": "trill", "label": "r", "spoken": "rojo", "confuseGroup": ["tap"] }
+  ]
+}

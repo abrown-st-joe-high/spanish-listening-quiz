@@ -1,0 +1,33 @@
+{
+  "id": "english-consonants",
+  "title": "English consonants (IPA)",
+  "instructions": "Listen to the consonant sound and choose the matching IPA symbol.",
+  "audioPath": "audio/english-consonants/",
+  "fallbackLang": "en-US",
+  "items": [
+    { "id": "p", "label": "p", "spoken": "pa", "confuseGroup": ["b"] },
+    { "id": "b", "label": "b", "spoken": "ba", "confuseGroup": ["p", "v"] },
+    { "id": "t", "label": "t", "spoken": "ta", "confuseGroup": ["d"] },
+    { "id": "d", "label": "d", "spoken": "da", "confuseGroup": ["t"] },
+    { "id": "k", "label": "k", "spoken": "ka", "confuseGroup": ["g"] },
+    { "id": "g", "label": "g", "spoken": "ga", "confuseGroup": ["k"] },
+    { "id": "ch", "label": "tʃ", "spoken": "cha", "confuseGroup": ["jh", "sh"] },
+    { "id": "jh", "label": "dʒ", "spoken": "ja", "confuseGroup": ["ch", "zh"] },
+    { "id": "f", "label": "f", "spoken": "fa", "confuseGroup": ["v", "th"] },
+    { "id": "v", "label": "v", "spoken": "va", "confuseGroup": ["b", "f"] },
+    { "id": "th", "label": "θ", "spoken": "thin", "confuseGroup": ["f", "s", "dh"] },
+    { "id": "dh", "label": "ð", "spoken": "this", "confuseGroup": ["d", "z", "th"] },
+    { "id": "s", "label": "s", "spoken": "sa", "confuseGroup": ["z", "th"] },
+    { "id": "z", "label": "z", "spoken": "za", "confuseGroup": ["s", "dh"] },
+    { "id": "sh", "label": "ʃ", "spoken": "sha", "confuseGroup": ["zh", "ch"] },
+    { "id": "zh", "label": "ʒ", "spoken": "vision", "confuseGroup": ["sh", "jh"] },
+    { "id": "h", "label": "h", "spoken": "ha", "confuseGroup": [] },
+    { "id": "m", "label": "m", "spoken": "ma", "confuseGroup": ["n"] },
+    { "id": "n", "label": "n", "spoken": "na", "confuseGroup": ["m", "ng"] },
+    { "id": "ng", "label": "ŋ", "spoken": "sing", "confuseGroup": ["n"] },
+    { "id": "l", "label": "l", "spoken": "la", "confuseGroup": ["r"] },
+    { "id": "r", "label": "r", "spoken": "ra", "confuseGroup": ["l"] },
+    { "id": "y", "label": "j", "spoken": "ya", "confuseGroup": ["w"] },
+    { "id": "w", "label": "w", "spoken": "wa", "confuseGroup": ["y"] }
+  ]
+}

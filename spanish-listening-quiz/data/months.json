@@ -1,0 +1,124 @@
+{
+  "id": "months",
+  "title": "Months of the year",
+  "instructions": "Listen to the month and choose the matching word.",
+  "audioPath": "audio/months/",
+  "fallbackLang": "es-ES",
+  "items": [
+    {
+      "id": "enero",
+      "label": "enero",
+      "spoken": "enero",
+      "confuseGroup": [
+        "febrero"
+      ],
+      "gloss": "January"
+    },
+    {
+      "id": "febrero",
+      "label": "febrero",
+      "spoken": "febrero",
+      "confuseGroup": [
+        "enero"
+      ],
+      "gloss": "February"
+    },
+    {
+      "id": "marzo",
+      "label": "marzo",
+      "spoken": "marzo",
+      "confuseGroup": [
+        "mayo"
+      ],
+      "gloss": "March"
+    },
+    {
+      "id": "abril",
+      "label": "abril",
+      "spoken": "abril",
+      "confuseGroup": [
+        "mayo",
+        "marzo"
+      ],
+      "gloss": "April"
+    },
+    {
+      "id": "mayo",
+      "label": "mayo",
+      "spoken": "mayo",
+      "confuseGroup": [
+        "marzo",
+        "abril"
+      ],
+      "gloss": "May"
+    },
+    {
+      "id": "junio",
+      "label": "junio",
+      "spoken": "junio",
+      "confuseGroup": [
+        "julio"
+      ],
+      "gloss": "June"
+    },
+    {
+      "id": "julio",
+      "label": "julio",
+      "spoken": "julio",
+      "confuseGroup": [
+        "junio"
+      ],
+      "gloss": "July"
+    },
+    {
+      "id": "agosto",
+      "label": "agosto",
+      "spoken": "agosto",
+      "confuseGroup": [
+        "octubre"
+      ],
+      "gloss": "August"
+    },
+    {
+      "id": "septiembre",
+      "label": "septiembre",
+      "spoken": "septiembre",
+      "confuseGroup": [
+        "noviembre",
+        "diciembre"
+      ],
+      "gloss": "September"
+    },
+    {
+      "id": "octubre",
+      "label": "octubre",
+      "spoken": "octubre",
+      "confuseGroup": [
+        "noviembre",
+        "diciembre"
+      ],
+      "gloss": "October"
+    },
+    {
+      "id": "noviembre",
+      "label": "noviembre",
+      "spoken": "noviembre",
+      "confuseGroup": [
+        "septiembre",
+        "diciembre",
+        "octubre"
+      ],
+      "gloss": "November"
+    },
+    {
+      "id": "diciembre",
+      "label": "diciembre",
+      "spoken": "diciembre",
+      "confuseGroup": [
+        "septiembre",
+        "noviembre"
+      ],
+      "gloss": "December"
+    }
+  ]
+}

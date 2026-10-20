@@ -1,0 +1,25 @@
+{
+  "id": "english-vowels",
+  "title": "English vowels & diphthongs (IPA)",
+  "instructions": "Listen to the vowel sound and choose the matching IPA symbol.",
+  "audioPath": "audio/english-vowels/",
+  "fallbackLang": "en-US",
+  "items": [
+    { "id": "i", "label": "i", "spoken": "see", "confuseGroup": ["ih"] },
+    { "id": "ih", "label": "ɪ", "spoken": "sit", "confuseGroup": ["i", "eh"] },
+    { "id": "ey", "label": "eɪ", "spoken": "say", "confuseGroup": ["eh"] },
+    { "id": "eh", "label": "ɛ", "spoken": "bed", "confuseGroup": ["ae", "ih"] },
+    { "id": "ae", "label": "æ", "spoken": "cat", "confuseGroup": ["eh", "ah"] },
+    { "id": "ah", "label": "ɑ", "spoken": "father", "confuseGroup": ["uh", "ae"] },
+    { "id": "uh", "label": "ʌ", "spoken": "cup", "confuseGroup": ["ah", "schwa"] },
+    { "id": "aw", "label": "ɔ", "spoken": "law", "confuseGroup": ["ow"] },
+    { "id": "ow", "label": "oʊ", "spoken": "go", "confuseGroup": ["aw", "oo"] },
+    { "id": "oo-short", "label": "ʊ", "spoken": "book", "confuseGroup": ["oo"] },
+    { "id": "oo", "label": "u", "spoken": "blue", "confuseGroup": ["oo-short"] },
+    { "id": "er", "label": "ɝ", "spoken": "bird", "confuseGroup": ["schwa"] },
+    { "id": "schwa", "label": "ə", "spoken": "about", "confuseGroup": ["uh", "er"] },
+    { "id": "ay", "label": "aɪ", "spoken": "my", "confuseGroup": ["oy"] },
+    { "id": "ow2", "label": "aʊ", "spoken": "how", "confuseGroup": ["ow"] },
+    { "id": "oy", "label": "ɔɪ", "spoken": "boy", "confuseGroup": ["ay"] }
+  ]
+}

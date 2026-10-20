@@ -1,0 +1,57 @@
+[
+  {
+    "id": "alphabet",
+    "label": "Alphabet",
+    "dataFile": "data/alphabet.json"
+  },
+  {
+    "id": "numbers-30",
+    "label": "Numbers 0–30",
+    "dataFile": "data/numbers-30.json"
+  },
+  {
+    "id": "numbers-100",
+    "label": "Numbers 0–100",
+    "dataFile": "data/numbers-100.json"
+  },
+  {
+    "id": "numbers-1000",
+    "label": "Numbers 0–1000",
+    "dataFile": "data/numbers-1000.json"
+  },
+  {
+    "id": "days",
+    "label": "Days of the week",
+    "dataFile": "data/days.json"
+  },
+  {
+    "id": "months",
+    "label": "Months of the year",
+    "dataFile": "data/months.json"
+  },
+  {
+    "id": "english-consonants",
+    "label": "English consonants (IPA)",
+    "dataFile": "data/english-consonants.json"
+  },
+  {
+    "id": "spanish-consonants",
+    "label": "Spanish consonants (IPA)",
+    "dataFile": "data/spanish-consonants.json"
+  },
+  {
+    "id": "english-vowels",
+    "label": "English vowels & diphthongs (IPA)",
+    "dataFile": "data/english-vowels.json"
+  },
+  {
+    "id": "spanish-vowels",
+    "label": "Spanish vowels & diphthongs (IPA)",
+    "dataFile": "data/spanish-vowels.json"
+  },
+  {
+    "id": "nouns",
+    "label": "Common nouns (pictures)",
+    "dataFile": "data/nouns.json"
+  }
+]

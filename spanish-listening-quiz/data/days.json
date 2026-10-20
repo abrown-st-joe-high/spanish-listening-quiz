@@ -1,0 +1,76 @@
+{
+  "id": "days",
+  "title": "Days of the week",
+  "instructions": "Listen to the day and choose the matching word.",
+  "audioPath": "audio/days/",
+  "fallbackLang": "es-ES",
+  "items": [
+    {
+      "id": "lunes",
+      "label": "lunes",
+      "spoken": "lunes",
+      "confuseGroup": [
+        "martes"
+      ],
+      "gloss": "Monday"
+    },
+    {
+      "id": "martes",
+      "label": "martes",
+      "spoken": "martes",
+      "confuseGroup": [
+        "jueves",
+        "miercoles"
+      ],
+      "gloss": "Tuesday"
+    },
+    {
+      "id": "miercoles",
+      "label": "miércoles",
+      "spoken": "miércoles",
+      "confuseGroup": [
+        "martes",
+        "jueves"
+      ],
+      "gloss": "Wednesday"
+    },
+    {
+      "id": "jueves",
+      "label": "jueves",
+      "spoken": "jueves",
+      "confuseGroup": [
+        "martes",
+        "viernes"
+      ],
+      "gloss": "Thursday"
+    },
+    {
+      "id": "viernes",
+      "label": "viernes",
+      "spoken": "viernes",
+      "confuseGroup": [
+        "jueves",
+        "martes"
+      ],
+      "gloss": "Friday"
+    },
+    {
+      "id": "sabado",
+      "label": "sábado",
+      "spoken": "sábado",
+      "confuseGroup": [
+        "domingo"
+      ],
+      "gloss": "Saturday"
+    },
+    {
+      "id": "domingo",
+      "label": "domingo",
+      "spoken": "domingo",
+      "confuseGroup": [
+        "sabado"
+      ],
+      "gloss": "Sunday"
+    }
+  ]
+}
